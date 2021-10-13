@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="371dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="369dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="353dp"
+                android:layout_height="292dp">
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Song List"
+                android:textSize="31sp" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="#604491"
+                app:srcCompat="@android:drawable/divider_horizontal_bright" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:backgroundTint="#9D63A6"
+                android:text="AC/DC - Back In Black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:backgroundTint="#CE93D8"
+                android:text="Blink 182 - I Miss You"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:backgroundTint="#9D63A6"
+                android:text="Charlie Puth - We Don't Talk Anymore"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:backgroundTint="#CE93D8"
+                android:text="Dawin - Dessert"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:backgroundTint="#9D63A6"
+                android:text="Elvis Presley - Can't Help Falling Love"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:backgroundTint="#CE93D8"
+                android:text="Foo Fighter - Learn To Fly"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:backgroundTint="#9D63A6"
+                android:text="Green Day - 21 Guns"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:backgroundTint="#CE93D8"
+                android:text="Imagine Dragon - Demons"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
